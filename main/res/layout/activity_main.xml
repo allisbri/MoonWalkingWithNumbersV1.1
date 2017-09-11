@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.moonwalkingwithnumbers.net.example.android.moonwalkingwithnumbers.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--<TextView
+            android:id="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="This is a memorization game inspired by the book, 'Moonwalking with Einstein' by Joshua Foer. The goal of this game is to learn better memorization skills by associating images with numbers. The idea is that the brain retains images better than it retains numbers.
+
+The average number of digits a person can retain is 7. Using the image technique, some people can memorize thousands of consecutive digits in a short period of time. This skill can also be applied to more complex concepts.
+
+First, you'll want to decide which images you would like to associate with each number (0-9). Then, enter the number of digits that you would like to memorize, and you will have 60 seconds (reduced to 10 sec for Udacity grader) to memorize each number. After 4 rounds, you will get your score."
+            />
+-->
+
+        <EditText
+            android:id="@+id/digits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="How many digits would you like to memorize?"
+            android:inputType="textCapWords"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:text="Start"
+            />
+
+        <TextView
+            android:id="@+id/memorize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Memorize this number: "
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Timer:"
+            android:visibility="invisible"
+            />
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the number here and hit the submit button"
+            android:inputType="textCapWords"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Submit"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Moonwalking with Numbers</string>
+    <string name="instruct">"This is a memorization game inspired by the book, 'Moonwalking with Einstein' by Joshua Foer. The goal of this game is to learn better memorization skills by associating images with numbers. The idea is that the brain retains images better than it retains numbers.\nThe average number of digits a person can retain is 7. Using the image technique, some people can memorize thousands of consecutive digits in a short period of time. This skill can also be applied to more complex concepts.\nFirst, you'll want to decide which images you would like to associate with each number (0-9). Then, enter the number of digits that you would like to memorize, and you will have 60 seconds to memorize each number. After 4 rounds, you will get your score."</string>
+</resources>
